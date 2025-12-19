@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class DiscountedAmount {
     public static void main(String[] args){
         int fee = 125000;
