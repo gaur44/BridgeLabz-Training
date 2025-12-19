@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Earth {
+public class EarthVolume {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double volume = (4/3) * 3.14 * Math.pow(6378,3);
