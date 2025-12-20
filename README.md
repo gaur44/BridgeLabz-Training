@@ -13,7 +13,7 @@ Solved and submitted basic programming problems in Java.
 [Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
 
 
-## 18–19 Dec 2025 – Control Flow Statements
+## 19 Dec 2025 – Control Flow Statements
 
 Assignments on if, else, and conditional logic
 Solved multiple problem-based questions in Java.
