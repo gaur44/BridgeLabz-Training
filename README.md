@@ -1,5 +1,31 @@
 # BridgeLabz-Training Daily Updates
 
+Directory Structure:
+
+```
+BridgeLabz-Training/
+|
++-- core-java-practice/(Branch & Folder Name)
+|   |
+|   +-- gcr-codebase/
+|   |   |
+|   |   +-- programming-elements/
+|   |   |
+|   |   +-- control-flow/
+|   |   |
+|   |   +-- arrays/
+|   |   |
+|   |   +-- extras/
+|   |   |
+|   |   +-- strings/
+|   |
+|   +-- leet-code-codebase/
+|   |
+|   +-- scenario-based/
+|
++-- README.md
+```
+
 Daily documentation of the tasks completed as part of the BridgeLabz training program.
 
 ## 16 Dec 2025 – Kick-off Session
@@ -18,3 +44,30 @@ Solved and submitted basic programming problems in Java.
 Assignments on if, else, and conditional logic
 Solved multiple problem-based questions in Java.
 [Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flow)
+
+
+## 20 Dec 2025 - Arrays
+
+Assignments on arrays and related logic.
+Solved scenario-based questions Coffee Counter Chronicles & BMI Calculator.
+[Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/arrays)
+
+
+## 22 Dec 2025 - Strings
+
+Solved assignments on strings in Java.
+Solved Anagram, Character To Array, Lower Case Conversion.
+[Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/strings)
+
+
+## 23 Dec 2025 - Strings Review and Scenario Based Problems
+
+Solved a few problems from strings problemset and solved scenario based problems.
+
+
+## 24 Dec 2025 - Methods
+
+Revisited Methods in Java and solved the assignment problems.
+[Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/methods)
+
+
