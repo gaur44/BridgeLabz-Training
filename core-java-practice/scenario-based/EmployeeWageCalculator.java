@@ -54,6 +54,8 @@ public class EmployeeWageCalculator {
                     break;
             }
         }
+        System.out.println("--------------");
+        System.out.println("Hourly Wage: " + wagePerHour);
         System.out.println("Number of days worked: " + daysWorked);
         System.out.println("Number of hours worked: " + hoursWorked);
         System.out.println("Wage: " + wagePerHour * hoursWorked);
