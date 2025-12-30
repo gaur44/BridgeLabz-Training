@@ -76,7 +76,8 @@ Revisited Methods in Java and solved the assignment problems.
 ## 26 Dec 2025 - Built-in Functions and Date & Time Functions
 
 Solved problems on Java built-in functions and date-time related built-in functions. Also solved 'Bus Route Distance Tracker' and 'Festival Lucky Draw' [scenario based](https://github.com/gaur44/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based) problems.
-[Extras](https://github.com/gaur44/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/extras)
+
+[Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/extras)
 
 ---
 
@@ -90,4 +91,4 @@ Solved extra problems on string handling and solved [scenario based](https://git
 - Digital Watch Simulation
 - Employee Wage Computation Problem
 
-[Extras](https://github.com/gaur44/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/extras)
+[Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/extras)
