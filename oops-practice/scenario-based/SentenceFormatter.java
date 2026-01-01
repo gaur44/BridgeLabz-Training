@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class SentenceFormatter {
 
     public String formatParagraph(String paragraph) {
@@ -39,7 +41,6 @@ public class SentenceFormatter {
                 }
             }
 
-            
             if (curr == ',') {
                 if (i + 1 < paragraph.length() && paragraph.charAt(i + 1) != ' ') {
                     result.append(' ');
@@ -53,8 +54,9 @@ public class SentenceFormatter {
 
     public static void main(String[] args) {
         SentenceFormatter formatter = new SentenceFormatter();
-        String paragraph =
-                "   lorem,ipsum.lorem ipsum.one.two!three.   ";
+        Scanner scanner = new Scanner(System.in);
+        String paragraph = scanner.nextLine();
         System.out.println(formatter.formatParagraph(paragraph));
+        scanner.close();
     }
 }
