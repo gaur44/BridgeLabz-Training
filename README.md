@@ -36,6 +36,7 @@ GitHub repository and programming environment were set-up.
 
 ## 17-18 Dec 2025 – Java Basics
 Solved and submitted basic programming problems in Java.
+
 [Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
 
 
@@ -43,6 +44,7 @@ Solved and submitted basic programming problems in Java.
 
 Assignments on if, else, and conditional logic
 Solved multiple problem-based questions in Java.
+
 [Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flow)
 
 
@@ -50,6 +52,7 @@ Solved multiple problem-based questions in Java.
 
 Assignments on arrays and related logic.
 Solved scenario-based questions Coffee Counter Chronicles & BMI Calculator.
+
 [Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/arrays)
 
 ---
@@ -59,6 +62,7 @@ Solved scenario-based questions Coffee Counter Chronicles & BMI Calculator.
 
 Solved assignments on strings in Java.
 Solved Anagram, Character To Array, Lower Case Conversion.
+
 [Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/strings)
 
 
@@ -70,6 +74,7 @@ Solved a few problems from strings problemset and solved scenario based problems
 ## 24 Dec 2025 - Methods
 
 Revisited Methods in Java and solved the assignment problems.
+
 [Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/methods)
 
 
@@ -99,7 +104,6 @@ Solved extra problems on string handling and solved [scenario based](https://git
 
 Created branch `oops-practice` at [oops-practice](https://github.com/gaur44/BridgeLabz-Training/tree/oops-practice). Revisited OOP concepts and solved Class & Object problemset.
 
-
 [Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/class-and-object)
 
 Also solved [scenario based](https://github.com/gaur44/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based) problems: Snake & Ladder Problem and Employee Wage.
@@ -110,7 +114,6 @@ Also solved [scenario based](https://github.com/gaur44/BridgeLabz-Training/tree/
 
 Reviewed concepts of constructors, instance variables vs. class variables and access modifiers and solved the problems related to those.
 
-
 [Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/constructor-and-instance-variable)
 
 
@@ -118,7 +121,6 @@ Reviewed concepts of constructors, instance variables vs. class variables and ac
 
 
 Solved problems related to this, static and final keywords: Employee Management System, Shopping Cart System, University Student Management etc.
-
 
 [Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/this-static-final-keyword)
 
