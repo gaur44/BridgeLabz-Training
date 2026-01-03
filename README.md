@@ -136,7 +136,6 @@ Also solved scenario based problems:
 
 Solved problems related to OOP Design Principles & Class, Object and Sequence Diagrams.
 
-
 [Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/oop-design-principles)
 
 
