@@ -114,4 +114,33 @@ Reviewed concepts of constructors, instance variables vs. class variables and ac
 [Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/constructor-and-instance-variable)
 
 
+## 1 Jan 2026 - this, static, final keywords and instanceof operator
+
+
+Solved problems related to this, static and final keywords: Employee Management System, Shopping Cart System, University Student Management etc.
+
+
+[Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/this-static-final-keyword)
+
+
+Also solved scenario based problems:
+- Sentence Formatter
+- Text Analyzer
+
+
+
+## 2 Jan 2026 - Object Oriented Design Principles
+
+
+Solved problems related to OOP Design Principles & Class, Object and Sequence Diagrams.
+
+
+[Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/oop-design-principles)
+
+
+Solved scenario based problems:
+- Temperature Analyzer
+- Test Scores Manager
+- String Reversal
+- Find Duplicates in Array
 
