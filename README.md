@@ -145,3 +145,15 @@ Solved scenario based problems:
 - String Reversal
 - Find Duplicates in Array
 
+
+
+## 3 Jan 2026 - OOP: Inheritance
+
+Reviewed concepts and solved problems related to single, multi-level and hierarchical inheritance.
+Which also included method overriding, constructor inheritance etc.
+
+[Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/inheritance)
+
+Solved scenario based problems:
+- Bank Account Manager
+- Mathematical Operations
