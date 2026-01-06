@@ -1,8 +1,8 @@
 import java.util.*;
 
 class InvalidMarkException extends Exception {
-    InvalidMarkException(String m) {
-        super(m);
+    InvalidMarkException(String message) {
+        super(message);
     }
 }
 
@@ -10,36 +10,36 @@ class Student {
     String name;
     int[] marks;
 
-    Student(String n, int[] m) {
-        name = n;
-        marks = m;
+    Student(String name, int[] marks) {
+        this.name = name;
+        this.marks = marks;
     }
 }
 
 public class StudentReportGenerator {
-
-    static double avg(int[] a) {
-        int s = 0;
-        for (int i = 0; i < a.length; i++)
-            s += a[i];
-        return (double) s / a.length;
+    static double avg(int[] marks) {
+        int sumMarks = 0;
+        for (int i = 0; i < marks.length; i++)
+            sumMarks += marks[i];
+        return (double) sumMarks / marks.length;
     }
 
-    static String grade(double p) {
-        if (p >= 80) return "A";
-        if (p >= 60) return "B";
-        if (p >= 40) return "C";
+    static String grade(double score) {
+        if (score >= 80) return "A";
+        if (score >= 60) return "B";
+        if (score >= 40) return "C";
         return "Fail";
     }
 
-    static void check(int[] a) throws InvalidMarkException {
-        for (int i = 0; i < a.length; i++)
-            if (a[i] < 0 || a[i] > 100)
-                throw new InvalidMarkException("Wrong mark: " + a[i]);
+    static void check(int[] marks) throws InvalidMarkException {
+        for (int i = 0; i < marks.length; i++)
+            if (marks[i] < 0 || marks[i] > 100)
+                throw new InvalidMarkException("Wrong mark: " + marks[i]);
     }
 
     static void show(Student s, String[] sub) {
-        System.out.println("\nReport for " + s.name);
+        System.out.println();
+        System.out.println("Report for " + s.name);
         for (int i = 0; i < sub.length; i++)
             System.out.println(sub[i] + " : " + s.marks[i]);
 
@@ -62,13 +62,13 @@ public class StudentReportGenerator {
             list.add(new Student("Aman", m1));
 
             check(m2);   // will fail
-            list.add(new Student("Riya", m2));
+            list.add(new Student("Rohan", m2));
 
         } catch (InvalidMarkException e) {
             System.out.println("Error: " + e.getMessage());
         }
 
-        for (Student s : list)
-            show(s, subs);
+        for (Student student : list)
+            show(student, subs);
     }
 }

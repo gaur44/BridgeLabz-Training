@@ -1,23 +1,22 @@
 import java.util.*;
 
 class InvalidQuizSubmissionException extends Exception {
-    InvalidQuizSubmissionException(String m) {
-        super(m);
+    InvalidQuizSubmissionException(String message) {
+        super(message);
     }
 }
 
 public class QuizPlatform {
-
-    static int check(String[] a, String[] b) throws InvalidQuizSubmissionException {
-        if (a.length != b.length)
+    static int check(String[] correctAnswers, String[] userAnswers) throws InvalidQuizSubmissionException {
+        if (correctAnswers.length != userAnswers.length)
             throw new InvalidQuizSubmissionException("Answers count not same");
 
-        int s = 0;
-        for (int i = 0; i < a.length; i++) {
-            if (a[i].equals(b[i]))
-                s++;
+        int score = 0;
+        for (int i = 0; i < correctAnswers.length; i++) {
+            if (correctAnswers[i].equals(userAnswers[i]))
+                score++;
         }
-        return s;
+        return score;
     }
 
     static String grade(int m, int t) {
