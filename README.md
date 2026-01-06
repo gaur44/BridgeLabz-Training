@@ -157,3 +157,31 @@ Which also included method overriding, constructor inheritance etc.
 Solved scenario based problems:
 - Bank Account Manager
 - Mathematical Operations
+
+
+---
+
+## 5 Jan 2026 - Encapsulation & Polymorphism, Interface & Abstract Class
+
+Solved few problems related to encapsulation, polymorphism, interfaces and abstract classes.
+
+[Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/encapsulation-polymorphism)
+
+Solved scenario-based problems and leetcode problems.
+- Invoice Generator for Freelancers
+- Cafeteria Menu App
+- Student Score Analyzer
+- Invoice Generator with Exception
+
+
+## 6 Jan 2026 - Scenario Based Problems
+
+Solved rest of the encpsulation and polymorphism problemset.
+
+Solved [scenario-based](https://github.com/gaur44/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based) problems:
+- Phone Contact Organizer
+- Online Quiz Platform
+- Student Report Generator
+- Library Management System
+
+[Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/encapsulation-polymorphism)
