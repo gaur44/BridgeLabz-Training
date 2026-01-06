@@ -1,14 +1,11 @@
-import java.util.ArrayList;
-import java.util.List;
-
 public class LibraryManagementSystem {
     public static void main(String[] args) {
 
-        List<LibraryItem> items = new ArrayList<>();
+        LibraryItem[] items = new LibraryItem[3];
 
-        items.add(new Book("B101", "Harry Potter", "J. K. Rowling"));
-        items.add(new Magazine("B102", "To Kill a Mockingbird", "Harper Leet"));
-        items.add(new DVD("D101", "Inception", "Christopher Nolan"));
+        items[0] = new Book("B101", "Harry Potter", "J. K. Rowling");
+        items[1] = new Magazine("B102", "To Kill a Mockingbird", "Harper Leet");
+        items[2] = new DVD("D101", "Inception", "Christopher Nolan");
 
         for (LibraryItem item : items) {
 

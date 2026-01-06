@@ -1,15 +1,12 @@
-import java.util.ArrayList;
-import java.util.List;
-
 public class EmployeeManagementSystem {
     public static void main(String[] args) {
-        List<Employee> employees = new ArrayList<>();
+        Employee[] employees = new Employee[2];
 
         Employee e1 = new FullTimeEmployee("ABC101", "Rahul", 50000);
         Employee e2 = new PartTimeEmployee("ABC202", "Rohan", 500, 40);
 
-        employees.add(e1);
-        employees.add(e2);
+        employees[0] = e1;
+        employees[2] = e2;
 
         // list of employees
         for (Employee emp : employees) {
@@ -40,7 +37,7 @@ abstract class Employee {
         System.out.println("Salary: " + calculateSalary());
     }
 
-    // Getters and setters
+    // getters and setters
     public String getEmployeeId() {
         return employeeId;
     }

@@ -1,14 +1,11 @@
-import java.util.ArrayList;
-import java.util.List;
-
 public class VehicleRentalSystem {
     public static void main(String[] args) {
 
-        List<Vehicle> vehicles = new ArrayList<>();
+        Vehicle[] vehicles = new Vehicle[3];
 
-        vehicles.add(new Car("CAR101", 1500, "POL1234"));
-        vehicles.add(new Bike("BIKE202", 500, "POL5678"));
-        vehicles.add(new Truck("TRUCK303", 3000, "POL9999"));
+        vehicles[0] = new Car("CAR101", 1500, "POL1234");
+        vehicles[1] = new Bike("BIKE202", 500, "POL5678");
+        vehicles[2] = new Truck("TRUCK303", 3000, "POL9999");
 
         int days = 5;
 
@@ -29,7 +26,6 @@ public class VehicleRentalSystem {
         }
     }
 }
-
 
 abstract class Vehicle {
     private String vehicleNumber;
@@ -59,12 +55,11 @@ abstract class Vehicle {
     }
 }
 
-
 interface Insurable {
     double calculateInsurance();
+
     String getInsuranceDetails();
 }
-
 
 class Car extends Vehicle implements Insurable {
     private String insurancePolicyNumber;
@@ -90,8 +85,6 @@ class Car extends Vehicle implements Insurable {
     }
 }
 
-
-
 class Bike extends Vehicle implements Insurable {
 
     private String insurancePolicyNumber;
@@ -116,7 +109,6 @@ class Bike extends Vehicle implements Insurable {
         return "Bike Insurance Policy: " + insurancePolicyNumber;
     }
 }
-
 
 class Truck extends Vehicle implements Insurable {
 

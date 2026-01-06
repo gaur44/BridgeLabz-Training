@@ -1,13 +1,10 @@
-import java.util.ArrayList;
-import java.util.List;
-
 public class HospitalManagementSystem {
     public static void main(String[] args) {
 
-        List<Patient> patients = new ArrayList<>();
+        Patient[] patients = new Patient[2];
 
-        patients.add(new InPatient("P101", "Rahul", 30, 5, 2000));
-        patients.add(new OutPatient("P102", "Rohan", 45, 600));
+        patients[0] = new InPatient("P101", "Rahul", 30, 5, 2000);
+        patients[1] = new OutPatient("P102", "Rohan", 45, 600);
 
         for (Patient p : patients) {
 

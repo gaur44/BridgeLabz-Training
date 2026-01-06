@@ -1,15 +1,12 @@
-import java.util.ArrayList;
-import java.util.List;
-
 public class RideHailingApp {
 
     public static void main(String[] args) {
 
-        List<Vehicle> vehicles = new ArrayList<>();
+       Vehicle[] vehicles = new Vehicle[3];
 
-        vehicles.add(new Car("C101", "Ravi", 15));
-        vehicles.add(new Bike("B101", "Amit", 8));
-        vehicles.add(new Auto("A101", "Suresh", 10));
+        vehicles[0] = new Car("C101", "Ravi", 15);
+        vehicles[1] = new Bike("B101", "Amit", 8);
+        vehicles[2] = new Auto("A101", "Suresh", 10);
 
         double distance = 12.5; // km
 
@@ -17,7 +14,7 @@ public class RideHailingApp {
     }
 
     // polymorphism
-    public static void calculateFares(List<Vehicle> vehicles, double distance) {
+    public static void calculateFares(Vehicle[] vehicles, double distance) {
 
         for (Vehicle v : vehicles) {
 

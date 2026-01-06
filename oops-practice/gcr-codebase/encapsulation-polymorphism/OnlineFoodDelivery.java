@@ -1,19 +1,17 @@
-import java.util.ArrayList;
-import java.util.List;
 
 public class OnlineFoodDelivery {
     public static void main(String[] args) {
 
-        List<FoodItem> order = new ArrayList<>();
+        FoodItem[] order = new FoodItem[2];
 
-        order.add(new VegItem("Paneer Butter Masala", 250, 2));
-        order.add(new NonVegItem("Chicken", 350, 1));
+        order[0] = new VegItem("Paneer Butter Masala", 250, 2);
+        order[1] = new NonVegItem("Chicken", 350, 1);
 
         processOrder(order);
     }
 
     // polymorphism
-    public static void processOrder(List<FoodItem> items) {
+    public static void processOrder(FoodItem[] items) {
 
         double grandTotal = 0;
 

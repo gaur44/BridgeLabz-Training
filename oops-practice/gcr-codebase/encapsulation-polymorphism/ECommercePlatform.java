@@ -1,20 +1,17 @@
-import java.util.ArrayList;
-import java.util.List;
-
 public class ECommercePlatform {
     public static void main(String[] args) {
 
-        List<Product> products = new ArrayList<>();
+        Product[] products = new Product[3];
 
-        products.add(new Electronics("E101", "Laptop", 60000));
-        products.add(new Clothing("C101", "Shirt", 1000));
-        products.add(new Groceries("G101", "Rice", 1200));
+        products[0] = new Electronics("E101", "Laptop", 60000);
+        products[1] = new Clothing("C101", "Shirt", 1000);
+        products[2] = new Groceries("G101", "Rice", 1200);
 
         calculateFinalPrices(products);
     }
 
     // polymorphism
-    public static void calculateFinalPrices(List<Product> products) {
+    public static void calculateFinalPrices(Product[] products) {
         for (Product p : products) {
 
             double tax = 0;

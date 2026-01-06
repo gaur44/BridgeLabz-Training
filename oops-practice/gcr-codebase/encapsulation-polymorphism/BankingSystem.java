@@ -1,14 +1,10 @@
-import java.util.ArrayList;
-import java.util.List;
-
 public class BankingSystem {
     public static void main(String[] args) {
-        List<BankAccount> accounts = new ArrayList<>();
+        BankAccount[] accounts = new BankAccount[2];
 
-        accounts.add(new SavingsAccount("SA101", "Alice", 50000));
-        accounts.add(new CurrentAccount("CA202", "Bob", 80000));
+        accounts[0] = (new SavingsAccount("SA101", "Alice", 50000));
+        accounts[1] = (new CurrentAccount("CA202", "Bob", 80000));
 
-        // Polymorphism: same reference, different behavior
         for (BankAccount acc : accounts) {
 
             System.out.println("Account Holder: " + acc.getHolderName());
