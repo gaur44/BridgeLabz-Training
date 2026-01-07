@@ -10,6 +10,7 @@ public class StudentScoreAnalyzer {
         float[] scores = new float[n];
         float sum = 0;
 
+        sc.close();
         // get scores
         for (int i = 0; i < n; i++) {
             while (true) {
