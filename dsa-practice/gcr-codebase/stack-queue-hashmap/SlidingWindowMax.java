@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class SlidingWindowMaxLL {
+public class SlidingWindowMax {
     public static int[] maxSlidingWindow(int[] nums, int k) {
         int n = nums.length;
         int[] result = new int[n - k + 1];
