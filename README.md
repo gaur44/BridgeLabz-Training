@@ -185,3 +185,58 @@ Solved [scenario-based](https://github.com/gaur44/BridgeLabz-Training/tree/oops-
 - Library Management System
 
 [Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/encapsulation-polymorphism)
+
+
+## 7 Jan 2026 - Data Structures Introduction
+
+Revised concepts of Linked Lists.
+
+Solved scenario-based problems:
+- Cab Booking / Ride Management System
+- Online Banking System
+
+[scenario-based](https://github.com/gaur44/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+
+
+## 8 Jan 2026 - Linked Lists
+
+Submission of problems on linked lists:
+- Single Linked List
+- Double Linked List
+- Circular  Linked List
+
+[Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/linked-list)
+
+
+## 9 Jan 2026 - Scenario Based
+
+Solved scenario-based problems:
+- Hospital Patient Management System
+- Vehicle Rental Application
+- Flight Booking System
+
+[scenario-based](https://github.com/gaur44/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+
+
+## 12 Jan 2026 - OOP Scenario Based Problems
+
+Solved OOP scenario based problems such as:
+- Online Banking System
+- E-Commerce Order Management System
+- Student Course Registration System
+
+[scenario-based](https://github.com/gaur44/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+
+
+## 13 Jan 2026 - GIT: Merge Conflict Resolution
+
+Learned how merge conflicts arise and how they can be resolved.
+Reviewed stack, queue, hashmap concepts.
+
+
+## 14 Jan 2026 - Stack, Queue, Hashmap & Hash Function
+
+Solved problems on Stacks, Queues, Hash Map and Functions.
+
+
+[Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/stack-queue-hashmap)
