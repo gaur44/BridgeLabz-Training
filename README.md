@@ -217,6 +217,7 @@ Solved scenario-based problems:
 
 [scenario-based](https://github.com/gaur44/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
 
+---
 
 ## 12 Jan 2026 - OOP Scenario Based Problems
 
