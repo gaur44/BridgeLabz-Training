@@ -1,6 +1,7 @@
-public class StringConcat {
+public class StringBufferConcat {
     public static String concatenate(String[] strArray) {
-        StringBuilder cat = new StringBuilder();
+        // Using StringBuffer
+        StringBuffer cat = new StringBuffer();
         for (String str : strArray) {
             cat.append(str);
         }
@@ -10,6 +11,6 @@ public class StringConcat {
     public static void main(String[] args) {
         // String array
         String[] stringArray = {"Hello ", "World", "!"};
-        System.out.println(StringConcat.concatenate(stringArray));
+        System.out.println(StringBufferConcat.concatenate(stringArray));
     }
 }
