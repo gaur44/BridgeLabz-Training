@@ -241,3 +241,34 @@ Solved problems on Stacks, Queues, Hash Map and Functions.
 
 
 [Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/stack-queue-hashmap)
+
+
+## 15 Jan 2026  - Searching Algorithms
+
+Went through posted material on:
+- Linear Search
+- Binary Search
+- StringBuilder
+- StringBuffer etc...
+
+Read and understood the requirements of the Address Book Problem.
+Learnt about 4-layer architecture, POJO classes.
+
+
+## 16 Jan 2026 - Searching Algorithms & Algorithm Analysis
+
+Submitted solutions for problemset of Searching Algorithms.
+Reviewed algorithm runtime analysis and Big-O Notation.
+
+[Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/linear-binary-search)
+
+
+## 17 Jan 2026 - Runtime Analysis
+
+Reviewed algorithm runtime analysis
+Scenario based problems:
+- TrafficManager
+- BookShelf
+- BrowserBuddy
+
+---
