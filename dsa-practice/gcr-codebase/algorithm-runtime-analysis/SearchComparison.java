@@ -3,7 +3,7 @@ import java.util.Random;
 
 public class SearchComparison {
 
-    // Linear Search: O(N)
+    // Linear Search
     public static int linearSearch(int[] arr, int target) {
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == target) {
@@ -13,7 +13,7 @@ public class SearchComparison {
         return -1;
     }
 
-    // Binary Search: O(log N)
+    // Binary Search
     // Precondition: sorted array: arr
     public static int binarySearch(int[] arr, int target) {
         int left = 0, right = arr.length - 1;
