@@ -1,14 +1,14 @@
 package addressbook;
 
 import java.util.ArrayList;
-import java.util.Comparator;
+import java.util.Iterator;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class AddressBook {
+
     private List<Contact> contacts = new ArrayList<>();
 
-    /* Add contact with duplicate check */
+    /* UC 1: Add contact */
     public boolean addContact(Contact contact) {
         if (contacts.contains(contact)) {
             return false;
@@ -17,7 +17,7 @@ public class AddressBook {
         return true;
     }
 
-    /* Edit contact by name */
+    /* UC 3: Edit contact by name */
     public boolean editContact(String firstName, String lastName,
                                String newAddress, String newCity,
                                String newState, String newZip,
@@ -39,37 +39,82 @@ public class AddressBook {
         return false;
     }
 
-    /* Delete contact */
+    /* UC 4: Delete contact */
     public boolean deleteContact(String firstName, String lastName) {
-        return contacts.removeIf(c ->
-                c.getFirstName().equalsIgnoreCase(firstName)
-                        && c.getLastName().equalsIgnoreCase(lastName));
+        Iterator<Contact> it = contacts.iterator();
+        while (it.hasNext()) {
+            Contact c = it.next();
+            if (c.getFirstName().equalsIgnoreCase(firstName)
+                    && c.getLastName().equalsIgnoreCase(lastName)) {
+                it.remove();
+                return true;
+            }
+        }
+        return false;
     }
 
-    /* Search by city */
+    /* UC 8a: Search by city */
     public List<Contact> searchByCity(String city) {
-        return contacts.stream()
-                .filter(c -> c.getCity().equalsIgnoreCase(city))
-                .collect(Collectors.toList());
+        List<Contact> result = new ArrayList<>();
+        for (Contact c : contacts) {
+            if (c.getCity().equalsIgnoreCase(city)) {
+                result.add(c);
+            }
+        }
+        return result;
     }
 
-    /* Search by state */
+    /* UC 8b: Search by state */
     public List<Contact> searchByState(String state) {
-        return contacts.stream()
-                .filter(c -> c.getState().equalsIgnoreCase(state))
-                .collect(Collectors.toList());
+        List<Contact> result = new ArrayList<>();
+        for (Contact c : contacts) {
+            if (c.getState().equalsIgnoreCase(state)) {
+                result.add(c);
+            }
+        }
+        return result;
     }
 
-    /* Sort by name */
+    /* UC 11: Sort by name (manual sort) */
     public void sortByName() {
-        contacts.sort(Comparator
-                .comparing(Contact::getFirstName, String.CASE_INSENSITIVE_ORDER)
-                .thenComparing(Contact::getLastName, String.CASE_INSENSITIVE_ORDER));
+        int n = contacts.size();
+
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+
+                Contact c1 = contacts.get(j);
+                Contact c2 = contacts.get(j + 1);
+
+                int firstNameCompare =
+                        c1.getFirstName().compareToIgnoreCase(c2.getFirstName());
+
+                if (firstNameCompare > 0 ||
+                   (firstNameCompare == 0 &&
+                    c1.getLastName().compareToIgnoreCase(c2.getLastName()) > 0)) {
+
+                    contacts.set(j, c2);
+                    contacts.set(j + 1, c1);
+                }
+            }
+        }
     }
 
-    /* Sort by city */
+    /* UC 12: Sort by city */
     public void sortByCity() {
-        contacts.sort(Comparator.comparing(Contact::getCity, String.CASE_INSENSITIVE_ORDER));
+        int n = contacts.size();
+
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+
+                Contact c1 = contacts.get(j);
+                Contact c2 = contacts.get(j + 1);
+
+                if (c1.getCity().compareToIgnoreCase(c2.getCity()) > 0) {
+                    contacts.set(j, c2);
+                    contacts.set(j + 1, c1);
+                }
+            }
+        }
     }
 
     public void displayAll() {
@@ -77,7 +122,9 @@ public class AddressBook {
             System.out.println("Address Book is empty.");
             return;
         }
-        contacts.forEach(System.out::println);
+
+        for (Contact c : contacts) {
+            System.out.println(c);
+        }
     }
 }
-
