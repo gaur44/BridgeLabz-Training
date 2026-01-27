@@ -1,4 +1,4 @@
-public class ThrowVsThrowsExample {
+public class ThrowVsThrows {
 
     static double calculateInterest(double amount, double rate, int years)
             throws IllegalArgumentException {
