@@ -3,6 +3,7 @@ public class Queue {
     int SIZE = 10;
     int start = 0;
     int end = 0;
+
     public Queue(int size) {
         arr = new int[size];
     }
@@ -12,26 +13,32 @@ public class Queue {
     }
 
     // Enqueue
-    // if queue is full
     public void enqueue(int data) {
         if (end >= arr.length) {
-            System.err.println("Error: Cannot enqueue queue is full");
+            System.err.println("Error: Cannot enqueue, queue is full");
             return;
         }
-        System.out.println("Enqueued: " + data);
         arr[end++] = data;
+        System.out.println("Enqueued: " + data);
     }
 
+    // Dequeue
     public void dequeue() {
-        if (end == 0) {
-            System.err.println("Error: Cannot dequeue queue is empty");
+        if (start == end) {
+            System.err.println("Error: Cannot dequeue, queue is empty");
             return;
         }
-        System.out.println("Dequeue: " + arr[start++]);
+        System.out.println("Dequeued: " + arr[start++]);
+
+        // reset pointers when queue is empty
+        if (start == end) {
+            start = 0;
+            end = 0;
+        }
     }
 
     public void peek() {
-        if (end == 0) {
+        if (start == end) {
             System.err.println("Queue is empty");
             return;
         }
