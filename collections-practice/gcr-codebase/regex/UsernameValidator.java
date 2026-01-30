@@ -1,12 +1,8 @@
-import java.util.regex.Pattern;
 import java.util.Scanner;
-import java.util.regex.Matcher;
 
 public class UsernameValidator {
     public static boolean isValidUsername(String s) {
-        Pattern pattern = Pattern.compile("[a-zA-Z0-9_]+");
-        Matcher matcher = pattern.matcher(s);
-        return matcher.matches();
+        return s.matches("[a-zA-Z0-9_]+");
     }
 
     public static void main(String[] args) {

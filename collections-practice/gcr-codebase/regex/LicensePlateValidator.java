@@ -1,12 +1,8 @@
-import java.util.regex.Pattern;
 import java.util.Scanner;
-import java.util.regex.Matcher;
 
 public class LicensePlateValidator {
     public static boolean isValidPlate(String s) {
-        Pattern pattern = Pattern.compile("[A-Z]{2}\\d{4}");
-        Matcher matcher = pattern.matcher(s);
-        return matcher.matches();
+        return s.matches("[A-Z]{2}\\d{4}");
     }
 
     public static void main(String[] args) {
