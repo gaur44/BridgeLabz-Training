@@ -272,3 +272,81 @@ Scenario based problems:
 - BrowserBuddy
 
 ---
+
+
+## 19 Jan 2026 - Java Generics Intro
+
+Went through the material for java generics.
+Solved scenario based problems:
+- ParcelTracker
+- ExamProctor
+- Banking Account Hierarchy
+
+[Scenario Based](https://github.com/gaur44/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based)
+
+
+## 20 Jan 2026 - Generics Submission
+
+Submission of java generics problemset.
+Solved scenario based problem CinemaTime – Movie Schedule Manager.
+
+
+[Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/generics)
+
+[Scenario Based](https://github.com/gaur44/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based)
+
+
+## 21 Jan 2026 - Java Collections
+
+Went through material for exceptions.
+Submission of java collections problemset.
+
+[Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/collections)
+
+
+## 22 Jan 2026 - Java Streams Intro
+
+Went through the material for Java Streams.
+
+
+## 23 Jan 2026 - Java Streams
+
+Submission of java streams assignment.
+
+[Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/streams)
+
+---
+
+## 27 Jan 2026 - Exceptions
+
+Submission of java exception handling assignment.
+
+[Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/exception-handling)
+
+Solved scenario based problem - Lexical Twist.
+
+[Lexical Twist](https://github.com/gaur44/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based)
+
+## 28 Jan 2026 - Regex and JUnit
+
+Perused the material for Regex and JUnit.
+
+## 29 Jan 2026 - Regex & Scenario Based Problems
+
+Solved FlipKey scenario based problem.
+
+Solved Regex problemset.
+
+[Flip Key](https://github.com/gaur44/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based)
+
+[Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/regex)
+
+## 30 Jan 2026 - JUnit
+
+Solved JUnit problemset and submitted Regex and JUnit assignment.
+Went through Sonar Qube material.
+
+[Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/junit)
+
+---
+
