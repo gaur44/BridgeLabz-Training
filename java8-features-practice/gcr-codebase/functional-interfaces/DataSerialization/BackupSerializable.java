@@ -1,0 +1,3 @@
+interface BackupSerializable {
+    // marker interface
+}
