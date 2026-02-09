@@ -11,7 +11,7 @@ Maven was then installed and configured using environment variables so that the 
 ## SonarQube Setup Using Docker
 Instead of installing SonarQube manually, Docker was used to simplify the setup.
 
-Docker Desktop was installed and a SonarQube container was started using the official SonarQube LTS image.  
+Docker was installed and a SonarQube container was started using the official SonarQube LTS image.  
 The container runs locally and exposes the SonarQube dashboard on port `9000`.
 
 Once the container was running, the SonarQube web interface was accessed through the browser and an authentication token was generated for Maven integration.
