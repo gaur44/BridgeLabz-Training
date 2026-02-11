@@ -350,3 +350,61 @@ Went through Sonar Qube material.
 
 ---
 
+## 2 Feb 2026 - Lambda Expressions
+
+Went through material for lambda expressions, and solved assignment.
+
+[Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/java8-features-practice/java8-features-practice/gcr-codebase/lambda-expressions)
+
+
+## 3 Feb 2026 - StreamAPI & Collectors
+
+Read through material for StreamAPI and Collectors.
+Solved AeroVigil scenario based problem.
+
+## 4 Feb 2026 - Collectors
+
+Submission of StreamAPI and Collectors Assignment.
+Solved scenario based problem - Robot Factory Hazard Analyzer
+
+[Solution](https://github.com/gaur44/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/FactoryRobotHazardAnalyzer)
+
+## 5 Feb 2026 - Design Patterns & Scenario Based Problems
+
+Read and understood the material for design patterns.
+Solved scenario based problems:
+- Food Delivery Order Routing System
+- Online Classroom Attendance Tracker
+
+## 6 Feb 2026 - Power Skills Session
+
+Soft skills and Communication session.
+
+## 7 Feb 2026 - Scenario Based Problems
+
+Solved:
+- OceanFleet problem
+- Online Auction Bidding System
+- Smart Energy Consumption Monitor
+
+[Solution](https://github.com/gaur44/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based/OceanFleet)
+
+
+---
+
+## 9 Feb 2026 - Sonar Qube
+
+Went through material for JDBC.
+Solved problems from the SonarQube assignment, and scenario based problems.
+
+
+## 10 Feb 2026 - M1 Mock Exam
+
+M1 Mock exam was conducted.
+
+
+## 11 Feb 2026 - JDBC Assignment
+
+Solved and submitted assignment on JDBC.
+
+[Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/jdbc-practice/jdbc-practice/gcr-codebase/HealthClinic)
