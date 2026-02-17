@@ -117,6 +117,17 @@ public class AddressBook {
         }
     }
 
+    public List<Contact> getContacts() {
+        return new ArrayList<>(contacts);
+    }
+
+    public void loadContacts(List<Contact> contactList) {
+        contacts.clear();
+        if (contactList != null) {
+            contacts.addAll(contactList);
+        }
+    }
+
     public void displayAll() {
         if (contacts.isEmpty()) {
             System.out.println("Address Book is empty.");

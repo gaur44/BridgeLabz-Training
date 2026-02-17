@@ -12,6 +12,10 @@ public class Contact {
     private String phoneNumber;
     private String email;
 
+    public Contact() {
+        this("", "", "", "", "", "", "", "");
+    }
+
     public Contact(String firstName, String lastName, String address,
                    String city, String state, String zip,
                    String phoneNumber, String email) {
@@ -39,12 +43,24 @@ public class Contact {
         return city;
     }
 
+    public String getAddress() {
+        return address;
+    }
+
     public String getState() {
         return state;
     }
 
     public String getZip() {
         return zip;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public String getEmail() {
+        return email;
     }
 
     public void setAddress(String address) {
