@@ -408,3 +408,49 @@ M1 Mock exam was conducted.
 Solved and submitted assignment on JDBC.
 
 [Solutions](https://github.com/gaur44/BridgeLabz-Training/tree/jdbc-practice/jdbc-practice/gcr-codebase/HealthClinic)
+
+## 12 Feb 2026 - Scenario Based Problems
+
+Solved scenario based problems:
+- Courier Staff Shift Scheduler
+- Smart Parking Slot Allocation System
+
+## 13 Feb 2026 - Power Skills Session
+
+Soft skills and Communication session.
+
+
+## 14 Feb 2026 - Scenario Based Problems
+
+Solved scenario based problems.
+
+
+[Solution](https://github.com/gaur44/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/FactoryRobotHazardAnalyzer)
+
+
+---
+
+## 16 Feb 2026 - Scenario Based
+
+Solved additional use cases for Address Book Problem and submitted the solutions.
+
+
+[Solution](https://github.com/gaur44/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/addressbook)
+
+## 17 Feb 2026 - Quantity Measurement App & Based
+
+Read through requirements and related concepts for quantity measurement app.
+
+
+## 18 Feb 2026 - M1 Mock Test
+
+M1 mock test.
+
+## 19 Feb 2026 - Quantity Measurement App
+
+Solved and submitted solutions for quantity measurement app:
+- UC3
+- UC4 
+
+[Solutions](https://github.com/gaur44/QuantityMeasurementApp/)
+
