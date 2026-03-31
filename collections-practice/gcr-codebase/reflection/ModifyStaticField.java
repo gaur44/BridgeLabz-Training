@@ -1,0 +1,27 @@
+import java.lang.reflect.Field;
+
+class Configuration {
+
+    private static String API_KEY = "OLD_KEY";
+}
+
+public class ModifyStaticField {
+
+    public static void main(String[] args) {
+
+        try {
+            Class<?> cls = Configuration.class;
+
+            Field field = cls.getDeclaredField("API_KEY");
+            field.setAccessible(true);
+
+            field.set(null, "NEW_API_KEY_123");
+            String value = (String) field.get(null);
+            System.out.println("API_KEY: " + value);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
+
